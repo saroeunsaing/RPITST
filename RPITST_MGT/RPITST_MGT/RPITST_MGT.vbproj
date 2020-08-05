@@ -50,6 +50,9 @@
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FontAwesome.Sharp, Version=5.13.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.13.0\lib\net45\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -82,6 +85,48 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Frm_Dashboard.Designer.vb">
+      <DependentUpon>Frm_Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_Departement.Designer.vb">
+      <DependentUpon>Frm_Departement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_Departement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_Level.Designer.vb">
+      <DependentUpon>Frm_Level.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_Level.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_Registration.Designer.vb">
+      <DependentUpon>Frm_Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_Score.Designer.vb">
+      <DependentUpon>Frm_Score.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_Score.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_Specialty.Designer.vb">
+      <DependentUpon>Frm_Specialty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_Specialty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_Subject.Designer.vb">
+      <DependentUpon>Frm_Subject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_Subject.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -108,6 +153,15 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Dashboard.resx">
+      <DependentUpon>Frm_Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Level.resx">
+      <DependentUpon>Frm_Level.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_Score.resx">
+      <DependentUpon>Frm_Score.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -130,10 +184,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Forms\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>

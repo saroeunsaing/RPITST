@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Frm_Score
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,15 +24,17 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'Form1
+        'Frm_Score
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(368, 238)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.ClientSize = New System.Drawing.Size(341, 522)
+        Me.Font = New System.Drawing.Font("Khmer OS Siemreap", 10.0!)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.Name = "Frm_Score"
+        Me.Text = "Frm_Score"
         Me.ResumeLayout(False)
 
     End Sub
-
 End Class

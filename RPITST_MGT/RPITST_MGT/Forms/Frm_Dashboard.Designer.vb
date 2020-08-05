@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Frm_Dashboard
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,15 +24,19 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'Form1
+        'Frm_Dashboard
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(368, 238)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.BackColor = System.Drawing.Color.Blue
+        Me.ClientSize = New System.Drawing.Size(1000, 700)
+        Me.Font = New System.Drawing.Font("Khmer OS Siemreap", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ForeColor = System.Drawing.Color.White
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.Name = "Frm_Dashboard"
+        Me.Text = "Frm_Dashboard"
         Me.ResumeLayout(False)
 
     End Sub
-
 End Class
